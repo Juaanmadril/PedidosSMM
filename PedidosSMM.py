@@ -13,13 +13,12 @@ bot = telebot.TeleBot(TOKEN)
 
 # Configurar conexión con Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-try:
-    credenciales = ServiceAccountCredentials.from_json_keyfile_name("credenciales.json", scope)
-    cliente = gspread.authorize(credenciales)
-    sheet = cliente.open("PedidosSMM").sheet1  # Nombre de la hoja de Google Sheets
-except Exception as e:
-    logging.error(f"Error al conectar con Google Sheets: {e}")
-    sheet = None
+
+# Cargar credenciales desde la variable de entorno
+credenciales_json = os.getenv("GOOGLE_SHEETS_CREDENTIALS")
+credenciales_dict = json.loads(credenciales_json)
+credenciales = ServiceAccountCredentials.from_json_keyfile_dict(credenciales_dict, scope)
+cliente = gspread.authorize(credenciales)
 
 # Dirección de pago en la red Solana
 DIRECCION_SOLANA = "35VyMoWKRJTX1Q1zKaNZ5sKs4VQtvFQkhgiMmzi8TzrF"
