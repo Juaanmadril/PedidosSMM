@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Configurar bot de Telegram
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("7828902060:AAGCHu_4DzO2UcEi5kao1zJhn9w9gWZIbOA")
 bot = telebot.TeleBot(TOKEN)
 
 # Configurar conexión con Google Sheets
