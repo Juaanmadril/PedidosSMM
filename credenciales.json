@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pedidos-smm",
+  "private_key_id": "7cb849c16b3887a2e78ff11c8de165429ba73fb4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5YgQKsaI24YL8\nKAyCMf72Wr7f7NuyPKQCi5mxc2KVR1zjo4tIPH+nEsse1G+oYTwWzr67Y/BTTzSf\nNT43e50Z6+FH3CUiKeSyZaMF1T2pUI/wnC5tvpERLvl7rUoUas3PN4covRsTSjBa\nD2GaB8ufFnFnd1JRslYw6ihh8vZzaTYZhwcP8PU8Kr8sds5c9TLDkZcs1qMhySVV\nE/DIGzMKsajFjC+vkPLawf7yRamL6KrQkqfHP/kA6aMYcKE6imKulwkRe9CZ/xjv\nKhZsA2o7/lmQ6O+C8lxTczNFgUNCeXJGM5impRrYnpKydPa7iWFNre+Lu5wLVOsz\nV21eDWIfAgMBAAECggEAIPYM+uvHiFODaxsh0jpad2n+GyltjJzcmnlAy/zUj+8+\n1Fi9SIw9NDMSu3oRGlKjkPiUkBP+ZImmNRKN6+aGMdgvV4wMbC0ftRp+KGjYTFT/\nKsxSMwAZogEEqdlPXR76VfgtB3DMMhtUSocGlxEAwtoGMtvT3qPDUHIp2PSOnklN\n6iczgAknzmT2V3FLJGFzEN1LcvHmCOWuf6VqhQcPRG9fBXWzlxyZkIERrr7LnD52\nVxMeBW2DixHkOeBsi/ZYCk0esr+r1U6BxJOoTMTFDYhqvJAIZhRqHUjRs4I5pmpb\nRgyLxcmxjyZdFmJ1CUM+U0GSn30evlEfZKHx065moQKBgQD7Yqd4zI37W3MUxNT0\nbx8o/IiL8BTai/4UHRyGnAy1rWB0fh//a206VeLmtUwtDzbBg11uny+ucqUY1MXN\nViRlUgaQ3zgpG3A+dgXHHkicxwYTRXNWCK91ZAE15Y07MQmbuiR8fMCgk/vXleX7\nsQxXw2gCUytZ610ADmn4GE0QfwKBgQC8yTF826/feCXFkn3oQqXAFbNHaBhgfKqT\nnJEcJgYzYdnSnf0ZNpdU4okfsJ9nQ37lbyQKfgH3vV8xkUKpLMeIzIzus/E72Bku\n1Zot1az3Nt+kDNnsm5qtVnvdiKR3IcsEuqkN8SgrSoOjiGUekmWVNiHPtup7aW0v\n8n00pXTeYQKBgDl1v1n5R6rgqFli9Fo63CB+OKfj5KBfx1/Jl6+dE7qjOpzmB2JW\np8zhvM+HOTZDd/ybjkuuzzNMuTgHyn645fDS4vVSUH/06Z8dUwzEe0x6oYTeJxLP\nQWvPxAcRxUp2Vv/leFmMGmuZ58LLXJo/Sdb1r1x4rjwLdGKC6O3wgAz5AoGBAJqp\njbSH2ocOzIsXX7U3XMmIPa8Dde0eVTTHcQ6JjEzuHmDxdBgC5GnziXl/3qff4Qcg\nTXuXDg+jgmh+ZAlrGTFWuyMYIkrv2HnJHx3rz19dAk1JBgRU2pylnKa6ulqrQcLn\nFXbJmioVStFf/c/VCgn7Jiog5esjTQOZ+r91ydAhAoGBAIUiyllt3lWBXlQljJjm\nrjIGCWGWJ7uE5jt9BBPM4xOHYZyFK8ly5Mo24GFbqO/Yt7tPsX5a5hGUugMfhm7g\nna4sXxD8sd6XPAJ2raJ8mH//YNUBbf3c5k+UwRqq8puVaw/0D4YeTMnWWiZQQmzU\nFMFaPOsp7+xHslds6X8/tCXg\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-bot-smm@pedidos-smm.iam.gserviceaccount.com",
+  "client_id": "101106499299826012749",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-bot-smm%40pedidos-smm.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
